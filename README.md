@@ -37,7 +37,7 @@ scikit-learn
 
 Based on the customer segmentation process using K-Means clustering, three distinct clusters were identified:
 
-Cluster 0 – “Premium Loyal Spenders”
+1. Cluster 0 – “Premium Loyal Spenders”
 
 Size: 660 customers (≈29% of total population)
 
@@ -45,16 +45,14 @@ Profile: High-income customers with consistent and high spending behavior across
 
 Behavioral Traits:
 
-Frequently purchase both online and in-store.
-
-Responsive to campaigns and tend to accept promotions.
-
-Contribute the largest portion of GMV (Gross Merchandise Value).
+- Frequently purchase both online and in-store.
+- Responsive to campaigns and tend to accept promotions.
+- Contribute the largest portion of GMV (Gross Merchandise Value).
 
 Marketing Strategy:
-Focus marketing efforts and personalized campaigns here — this group drives high revenue and has strong brand loyalty.
+- Focus marketing efforts and personalized campaigns here — this group drives high revenue and has strong brand loyalty.
 
-Cluster 1 – “Active Mid-Level Shoppers”
+2. Cluster 1 – “Active Mid-Level Shoppers”
 
 Size: 549 customers (≈25% of total population)
 
@@ -64,14 +62,13 @@ Behavioral Traits:
 
 Average to high frequency in online purchases.
 
-Moderate campaign acceptance rate.
-
-Stable contribution to total GMV.
+- Moderate campaign acceptance rate.
+- Stable contribution to total GMV.
 
 Marketing Strategy:
-Maintain engagement with regular promotions and loyalty programs. Upselling and cross-selling can be effective here.
+- Maintain engagement with regular promotions and loyalty programs. Upselling and cross-selling can be effective here.
 
-Cluster 2 – “Low Spenders / Minimal Responders”
+3. Cluster 2 – “Low Spenders / Minimal Responders”
 
 Size: 1,031 customers (≈46% of total population)
 
@@ -79,12 +76,12 @@ Profile: Low-income or low-activity customers who spend the least.
 
 Behavioral Traits:
 
-Rarely purchase products and have minimal campaign interaction.
+- Rarely purchase products and have minimal campaign interaction.
 
-Low contribution to overall GMV.
+- Low contribution to overall GMV.
 
 Marketing Strategy:
-Reduce heavy promotional spending for this segment. Focus only on cost-efficient retention tactics or targeted reactivation campaigns.
+- Reduce heavy promotional spending for this segment. Focus only on cost-efficient retention tactics or targeted reactivation campaigns.
 
 💡 Strategic Recommendation
 
@@ -99,11 +96,11 @@ cost savings of around Rp 25,775,000 annually.
 ## 🧾 File Structure
 ```
 notebooks/
- └── Cust_Personality_for_Marketing_Campaign_Boost_(Fix).ipynb  # main analysis
+ └── Customer_Segmentation_for_Marketing_Boost.ipynb  # main analysis
 src/
  └── data_preprocessing.py  # helper functions
 data/
- └── (optional) dataset.csv
+ └── (optional) marketing_campaign_data.csv
 ```
 
 ---
@@ -126,7 +123,7 @@ or
 You can run this project directly on **Google Colab** without local installation.
 
 1. Open the notebook file in Google Colab:
-   - [Open in Colab](https://colab.research.google.com/github/username/Customer_Segmentation_for_Marketing_Boost/blob/main/Customer_Segmentation_for_Marketing_Boost.ipynb)
+   - [Open in Colab](https://colab.research.google.com/github/nidafebiana/Customer_Segmentation_for_Marketing_Boost/blob/main/Customer_Segmentation_for_Marketing_Boost.ipynb)
 
 2. If any module is missing, install it inside a Colab cell:
    ```python
