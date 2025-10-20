@@ -100,7 +100,7 @@ notebooks/
 src/
  └── data_preprocessing.py  # helper functions
 data/
- └── (optional) marketing_campaign_data.csv
+ └── marketing_campaign_data.csv
 ```
 
 ---
@@ -108,7 +108,7 @@ data/
 ## 📈 How to Run
 1. Clone the repo:
    ```bash
-   git clone https://github.com/username/Customer_Segmentation_for_Marketing_Boost.git
+   git clone https://github.com/nidafebiana/Customer_Segmentation_for_Marketing_Boost.git
    ```
 2. Install dependencies:
    ```bash
@@ -134,4 +134,4 @@ You can run this project directly on **Google Colab** without local installation
 
 ## 🧑‍💼 Author
 **Nida Febiana**  
-_Data Analyst Enthusiast_
+_Data Enthusiast_
