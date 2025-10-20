@@ -116,19 +116,6 @@ data/
    ```
 3. Open the Jupyter Notebook and run all cells.
 
-or
-
-## 🚀 Setup & Usage
-
-You can run this project directly on **Google Colab** without local installation.
-
-1. Open the notebook file in Google Colab:
-   - [Open in Colab](https://colab.research.google.com/github/nidafebiana/Customer_Segmentation_for_Marketing_Boost/blob/main/Customer_Segmentation_for_Marketing_Boost.ipynb)
-
-2. If any module is missing, install it inside a Colab cell:
-   ```python
-   !pip install pandas numpy matplotlib seaborn scikit-learn
-
 
 ---
 
